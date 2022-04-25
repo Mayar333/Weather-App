@@ -1,0 +1,183 @@
+<html>
+    <head>
+        <link rel="stylesheet" href="css/all.min.css">
+        <link rel="stylesheet" href="css/bootstrap.min.css">
+        <link rel="stylesheet" href="css/style.css">
+
+    </head>
+    <body>
+
+        <nav class="navbar navbar-expand-lg navbar-light bg-dark">
+            <div class="container-fluid">
+                <div class="d-flex justify-content-around">
+              <a class="navbar-brand d-flex justify-content-around p-1" href="#">
+                 
+                 <img src="images/logo.png" class="img-fluid">
+                 <div class="logo-content">
+                  <h1>  Weather </h1>
+                  <small>tagline goes here</small>
+                 </div>
+                </a>
+            </div>
+              <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+              </button>
+              <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+                  <li class="nav-item">
+                    <a class="nav-link active" aria-current="page" href="#">Home</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="#">News</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="#">Live cameras</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="#">Photos</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="#">Contact</a>
+                  </li>
+                 
+                  
+                </ul>
+               
+              </div>
+            </div>
+          </nav>
+
+<section>
+    <div class="bg-color">
+        <div class="container ">
+            <div class="input-screch mb-5 m-auto">
+                <input type="text" id="search-bar"class="w-100  mt-5"placeholder="Search City..." >
+            </div>
+            <div class="row d-flex justify-content-around ">
+                <!--today-->
+                <div class="weather-card frist-card  shadow ">
+                    <div class="weather-date d-flex justify-content-between shadow p-1  ">
+                            <p id="today">tuseday </p>
+                            <p id="dateoftoday"> 1 febraury</p>
+                   </div>
+
+                    <div class="weather-details">
+                        <p id="location"></p>
+                        <div class=" d-flex justify-content-between my-4">
+                            <div class="pt-3">
+                    <h2 id="today-degree" class="d-inline-block"></h2>
+                    <h2 class="d-inline-block"><sup>o</sup>C</h2>
+                            </div>
+                            <img id="today-icon"  width="90"/>
+                        </div>
+                        <p id ="today-description"></p>
+                        <div class="details">
+                            <i class="fas fa-umbrella pr-1"></i>
+                            <span id="humidty"></span> 
+                            <span>%</span>
+          
+                            <i class="fas fa-wind pl-3 pr-1"></i>
+                            <span id="wind"></span>
+                             <span>km/h</span>
+          
+                            <i class="far fa-compass pl-3 pr-1"></i>
+                            <span id="compass">
+
+                            </span>
+                          </div>
+                    </div>
+
+
+
+
+                </div>
+                <!--next days-->
+                <div class=" weather-card second-card shadow">
+                    <div class="weather-date text-center shadow heading2">
+                    <p class="nextday">tuseday </p>
+                   </div>
+
+                    <div class="weather-details">
+                     <div>
+                        <img class="nextDay-icon" width="90"/>
+                     </div>
+                       
+                    <h2  class=" max-degree d-inline-block"></h2>
+                    <h2 class=" d-inline-block"><sup>o</sup>C</h2>
+                         <br>
+                         <p class="min-degree d-inline-block"></p>
+                         <p class="d-inline-block"><sup>o</sup>C</p>
+                         <p class="nextDay-description"></p>
+
+                        </div>
+                </div>
+
+                <div class=" weather-card thrid-card  shadow">
+                    <div class="weather-date text-center shadow heading3">
+                    <p class="nextday">tuseday </p>
+                   </div>
+
+                    <div class="weather-details">
+                     <div>
+                        <img class="nextDay-icon" width="90"/>
+                     </div>
+                       
+                    <h2  class=" max-degree d-inline-block"></h2>
+                    <h2 class="  d-inline-block"><sup>o</sup>C</h2>
+                         <br>
+                         <p class="min-degree d-inline-block"></p>
+                         <p class="d-inline-block"><sup>o</sup>C</p>
+                         <p class="nextDay-description"></p>
+
+                        </div>
+                </div>
+
+            </div>
+    </div>
+ </div>
+
+               
+         
+</section>
+<div class ="bg-dark">
+<div class="container  bg-dark h-25 ">
+    <div class="row">
+        <div class="col-md-8">
+            <form class="subscribe-form ">
+                <input type="text" id="search-bar"class="w-100 mt-5 float-start "placeholder="Enter Email... " >
+                <button class="btn ">Subscribe</button>
+            </form>
+                </div>
+        <div class="col-md-4">
+            <div class="social-media mt-5  text-white">
+                <i class="fab fa-facebook-f"></i>
+                <i class="fab fa-twitter"></i>
+                <i class="fab fa-google-plus-g"></i>
+                <i class="fab fa-pinterest-p"></i>
+            </div>
+        </div>
+    </div>
+    <p class="texting text-white mt-3">Copyright 2014 Company name. Designed by Themezy. All rights reserved</p>
+    </div>
+</div>
+
+    
+
+
+
+
+
+
+
+
+
+
+
+
+</body>
+
+        <script src="js/bootstrap.bundle.min.js"></script>
+        <script src="js/main.js"></script>
+
+    </body>
+</html>
